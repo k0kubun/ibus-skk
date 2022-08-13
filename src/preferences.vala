@@ -89,7 +89,7 @@ public class Preferences : Object {
         _default.set ("show_annotation",
                       new Variant.boolean (true));
         _default.set ("initial_input_mode",
-                      new Variant.int32 (Skk.InputMode.HIRAGANA));
+                      new Variant.int32 (Skk.InputMode.LATIN));
         _default.set ("egg_like_newline",
                       new Variant.boolean (false));
         _default.set ("typing_rule",
